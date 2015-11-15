@@ -1,0 +1,11 @@
+{
+	"name": "first_mean_spa",
+	"version": "1.6.5",
+	"dependencies": {
+		"bootstrap": "latest",
+		"font-awesome": "latest",
+		"animate.css": "latest",
+		"angular": "latest",
+		"angular-route": "latest"
+	}
+}
