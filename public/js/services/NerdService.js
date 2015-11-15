@@ -5,6 +5,7 @@ angular.module('NerdService', [])
 				return $http.get('/api/nerds')
 			}
 
+			//create and delete won't work yet - must add more routes first
 			create: function(nerdData) {
 				return $http.post('/api/nerds', nerdData)
 			}
