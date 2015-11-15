@@ -1,0 +1,29 @@
+{
+  "name": "first_mean_spa",
+  "version": "1.0.0",
+  "description": "My first MEAN SPA.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KateWood/first_mean_spa.git"
+  },
+  "keywords": [
+    "MEAN",
+    "SPA"
+  ],
+  "author": "Kate Wood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KateWood/first_mean_spa/issues"
+  },
+  "homepage": "https://github.com/KateWood/first_mean_spa#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.2.5"
+  }
+}
