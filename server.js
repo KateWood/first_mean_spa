@@ -2,7 +2,8 @@
 var express 		= require('express'),
 	app				= express(),
 	bodyParser		= require('body-parser'),
-	methodOverride 	= require('method-override')
+	methodOverride 	= require('method-override'),
+	mongoose 		= require('mongoose')
 
 //config files
 var db = require('./config/db')
@@ -11,7 +12,7 @@ var db = require('./config/db')
 var port = process.env.PORT || 8080
 
 //connect to mongo database
-//mongoose.connect(db.url)
+mongoose.connect(db.url)
 
 //parse application/json 
 app.use(bodyParser.json())
